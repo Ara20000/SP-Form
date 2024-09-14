@@ -1,0 +1,88 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg-intro-desktop.png);
+    background-color: rgb(247, 89, 116);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3 {
+    font-size: 35px;
+    /* font-weight: bolder; */
+}
+
+.learn {
+    color: white;
+    margin-right: 20px;
+}
+
+.p1 {
+    padding-top: 20px;
+}
+
+.try {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form {
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(106, 172, 106);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.p2 {
+    color: antiquewhite;
+}
+    
+a {
+    text-decoration: none;
+    color: red;
+}
+
+@media screen and (max-width:1440px) {
+    body {
+        background-color: rgb(247, 89, 116);
+    }
+}
+
+@media screen and (max-width:375px) {
+    body {
+        background-color: black;
+    }
+}
+
